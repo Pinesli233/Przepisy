@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My page pizza</title>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                font-family: Arial;
+                padding: 10px;
+                background: #f1f1f1;
+            }
+            .header {
+                background-color: #bf3d3d;
+                padding: 10px;
+                text-align: center;
+            }
+                .topnav {
+                overflow: hidden;
+                background-color: #333;
+            }
+                .topnav a {
+                    float: left;
+                    display: block;
+                    color: #f2f2f2;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                }
+            .leftcolumn {
+                float: left;
+                width: 50%;
+            }
+            .rightcolumn {
+                float: left;
+                width: 45%;
+                background-color: #f1f1f1;
+                padding-left: 20px;
+            }
+            .card {
+                background-color: white;
+                padding: 20px;
+                margin-top: 20px;
+                .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            @media screen and (max-width: 800px) {
+                .leftcolumn, .rightcolumn {
+                    width: 100%;
+                    padding: 0;
+                }
+            }
+            @media screen and (max-width: 400px) {
+                .topnav a {
+                    float: none;
+                    width: 100%;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Pizza</h1>
+        </div>
+        <div class="topnav">
+            <a href="../index.html"><img src="../images/menu.jpg" alt="Menu" width="50" /></a>
+        </div>
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <img src="../images/Pizza.jpeg" alt="Pizza" width="200">
+                    <h2>Opis</h2>
+                    <p>Przepis na pizze szybki do zrobienia na spotkanie ze znajomymi lub dla siebie</p>                    
+                </div>
+                <div class="card">
+                    <h2>Ciasto składniki:</h2>
+                    <ul>
+                        <li>1,5 szklanki mąki</li>
+                        <li>1/2 szklanki mleka</li>
+                        <li>25g świeżych drożdży</li>
+                        <li>1/2 łyżeczki soli</li>
+                        <li>1/2 łyżeczki cukru</li>
+                        <li>2 łyżki oleju</li>
+                    </ul>
+                    <h3>Dodatki składniki:</h3>                  
+                    <ul>
+                        <li>3 łyżki koncentratu pomidorowego</li>
+                        <li>150g mozzareli tartej</li>
+                        <li>100g szynki</li>
+                        <li>5 dużych pieczarek</li>
+                        <li>pieprz, bazylia, oregano, czosnek granulowany</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <h4>Kroki</h4>
+                    <ol>
+                        <li>Drożdże rozpuszczamy w ciepłym mleku, łączymy z mąką, cukrem, solą i olejem. Wyrabiamy gładkie ciasto. Rozwałkowujemy na kształt koła, zaginamy do środka brzegi.</li>
+                        <li>Placek smarujemy koncentratem, posypujemy przyprawami. Układamy kolejno: starty ser mozzarella, pokrojone: szynkę, pieczarki i cebulę.</li>
+                        <li>Pieczemy w temperaturze 210 stopni przez 15-20 minut, aż brzegi się zarumienią.</li>
+                    </ol>
+                </div>               
+</body>
+</html>
